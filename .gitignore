@@ -1,0 +1,17 @@
+# Installer
+*.sh
+
+# PDFs (can be large — add your own locally)
+PDFs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# macOS
+.DS_Store
+
+# Debug/temp scripts
+check_models.py
