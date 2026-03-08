@@ -29,7 +29,7 @@ Consider the chat history for context when answering, but prioritize information
 '''
 
 # Set Google API key
-GOOGLE_API_KEY = 'AIzaSyBURX-GRYfbNKJ4ASe5NrH5Y1ZWwatgV2M'
+GOOGLE_API_KEY = 'GOOGLE_API_KEY'
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 embeddings = OllamaEmbeddings(model="nomic-embed-text")
